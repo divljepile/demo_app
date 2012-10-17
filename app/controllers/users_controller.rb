@@ -1,7 +1,7 @@
 class UsersController < ApplicationController
   # GET /users
   # GET /users.json
-  # by me: these actions modify users in database
+  # by me: these actions modify users in database for crud ops
 
   def index
     @users = User.all
